@@ -1,9 +1,10 @@
+import HorizontalLabelPositionBelowStepper from './Components/Stepper/StepperForm'
 import './App.css';
 
 function App() {
   return (
-    <div>
-      Hello
+    <div className="app" >
+      <HorizontalLabelPositionBelowStepper />
     </div>
   );
 }
